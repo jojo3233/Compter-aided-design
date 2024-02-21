@@ -1,0 +1,10 @@
+
+
+在終端機輸入
+step1: make
+step2: ./m11215060 原blif檔
+step3: ./m11215060 out.blif
+
+麻煩助教一定要先做step2再做step3，這樣才能把資料輸入到out.blif，然後step3會印出Optimized literal count，感謝
+
+我是在Mac系統上能用tar -zxvf解壓縮，有在11/29課堂告知過助教的那位，但是linux好像沒有辦法，拍謝麻煩助教了。
