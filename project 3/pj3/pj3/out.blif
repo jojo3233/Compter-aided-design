@@ -1,202 +1,95 @@
 .model top
-.inputs a b c d e f g h i j k l m n o p q r s t u v w x y z a0 b0 c0 d0 e0 f0 g0 h0 i0 j0 k0 l0 m0 n0 o0 p0 q0 r0 s0 t0 u0 v0 w0 x0 y0 z0 a1 b1 c1 d1 e1 f1 g1 h1 i1 j1 k1 l1 m1
-.outputs n1 o1 p1 q1 r1 s1 t1 u1 v1 w1 x1 y1 z1 a2 b2 c2 d2 e2 f2 g2 h2 i2 j2 k2 l2 m2 n2 o2 p2 q2 r2 s2 t2 u2 v2 w2 x2 y2 z2 a3 b3 c3 d3 e3 f3 g3 h3 i3 j3 k3 l3 m3 n3 o3 p3 q3 r3 s3 t3 u3 v3 w3 x3 y3 z3
-.names Z
- 1
-
-.names a1 b c1 d d0 d1 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m m0 m1 n p q q0 r r0 s s0 t0 u u0 v v0 x0 y z z0 n1
-00000000000000000010000010000000000000000000 1
-
-.names a0 a1 b b0 c c1 d d0 d1 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p p0 q q0 r r0 s s0 t0 u u0 v v0 w0 x x0 y z z0 o1
-000010000000000000000100000000000000000000000000000 1
-
-.names a a0 a1 b b0 b1 c c0 c1 d d0 d1 e e0 e1 f f0 f1 g g0 g1 h h0 h1 i i0 i1 j j0 j1 k k0 k1 l l0 l1 m m0 m1 n n0 o o0 p p0 q q0 r r0 s s0 t t0 u u0 v v0 w w0 x x0 y y0 z z0 p1
-00000000000000000000000000000100000000000100000000000000000000000 1
-
-.names a1 b c1 d d0 d1 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p q q0 r r0 s s0 t0 u u0 v v0 x0 y z z0 q1
-000000000000000000100000000010000000000000000 1
-
-.names b c1 f h1 j j1 l0 m0 m1 p q0 r s r1
-0100010000000 1
-
-.names b c1 e0 f g h1 j j1 k l l0 m0 m1 p q0 r s s0 t0 v z s1
-000000011000000000000 1
-
-.names a1 b c1 d d0 e e0 e1 f f1 g g0 h1 j j1 k k0 k1 l l0 m0 m1 n p q q0 r s s0 t0 u v v0 y z t1
-00000001000000100000000000000000000 1
-
-.names a1 b c1 d d0 e e0 e1 f f1 g g0 h1 j j0 j1 k k0 k1 l l0 m0 m1 n p q q0 r s s0 t0 u v v0 y z u1
-000000000000001100000000000000000000 1
-
-.names b c1 e0 f h1 j j1 l0 m0 m1 p q0 r s v v1
-001000100000000 1
-
-.names a1 b c1 e e0 f g h1 j j1 k l l0 m0 m1 n p q q0 r s s0 t0 v y z w1
-00000000010000010000000000 1
-
-.names a a0 a1 b b0 b1 c c1 d d0 d1 e e0 e1 f f0 f1 g g0 g1 h h0 h1 i i0 j j0 j1 k k0 k1 l l0 m m0 m1 n n0 o0 p p0 q q0 r r0 s s0 t t0 u u0 v v0 w w0 x x0 y y0 z z0 x1
-0000000000000000000000000001000000000000000000000000000000100 1
-
-.names a a0 a1 b b0 b1 c c1 d d0 d1 e e0 e1 f f0 f1 g g0 g1 h h0 h1 i i0 j j0 j1 k k0 k1 l l0 m m0 m1 n n0 o0 p p0 q q0 r r0 s s0 t t0 u u0 v v0 w w0 x x0 y z z0 y1
-000000000000000000000000000100000000001000000000000000000000 1
-
-.names j1 l0 m1 z1
-101 1
-
-.names a0 a1 b b0 c1 d d0 d1 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p p0 q q0 r r0 s s0 t0 u u0 v v0 w0 x x0 y z z0 a2
-00000000000000000000100000000000100000000000000000 1
-
-.names a1 b c1 d d0 e e0 f f1 g g0 h1 j j1 k k0 k1 l l0 m0 m1 n p q q0 r s s0 t0 v v0 y z b2
-000100000000010000000000000000000 1
-
-.names a a0 a1 b b0 b1 c c1 d d0 d1 e e0 e1 f f0 f1 g g0 g1 h h0 h1 i i0 j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p p0 q q0 r r0 s s0 t t0 u u0 v v0 w w0 x x0 y z z0 c2
-00000000000000000000000000010000000000000000001000000000000 1
-
-.names b h1 j j1 l0 m0 m1 p s d2
-100100000 1
-
-.names a1 b c1 d d0 e e0 f f1 g g0 h1 j j1 k k0 k1 l l0 m0 m1 n p q q0 r s s0 t0 u v v0 y z e2
-0000000000000100000000000000010000 1
-
-.names b c1 f h1 j j1 l0 m0 m1 p q0 r s v f2
-00000100000001 1
-
-.names a1 b c1 e e0 f g h1 j j1 k l l0 m0 m1 p q q0 r s s0 t0 v y z g2
-1000000001000000000000000 1
-
-.names h1 j1 l0 m0 m1 p s h2
-0101000 1
-
-.names a1 b c1 d0 e e0 f g g0 h1 j j1 k k0 l l0 m0 m1 n p q q0 r s s0 t0 v y z i2
-00000000100100000000000000000 1
-
-.names b c1 e e0 f g h1 j j1 k l l0 m0 m1 p q q0 r s s0 t0 v y z j2
-000000001000000000000010 1
-
-.names a1 b c1 d d0 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m0 m1 n p q q0 r s s0 t0 u u0 v v0 x0 y z z0 k2
-00000000000000000100000000000000000000001 1
-
-.names b f h1 j j1 l0 m0 m1 p r s l2
-00001000010 1
-
-.names a a0 a1 b b0 b1 c c1 d d0 d1 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p p0 q q0 r r0 s s0 t0 u u0 v v0 w w0 x x0 y z z0 m2
-000001000000000000000001000000000000000000000000000000 1
-
-.names h1 j j1 l0 m0 m1 p s n2
-01100000 1
-
-.names b f h1 j j1 l0 m0 m1 p q0 r s o2
-000010000100 1
-
-.names a a0 a1 b b0 b1 c c1 d d0 d1 e e0 e1 f f0 f1 g g0 g1 h0 h1 i i0 j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p p0 q q0 r r0 s s0 t0 u u0 v v0 w w0 x x0 y z z0 p2
-000000000000000000000001001000000000000000000000000000000 1
-
-.names b c1 e e0 f g h1 j j1 k l l0 m0 m1 p q0 r s s0 t0 v z q2
-0010000010000000000000 1
-
-.names a a0 a1 b b0 b1 c c1 d d0 d1 e e0 e1 f f0 f1 g g0 h0 h1 i j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p p0 q q0 r r0 s s0 t0 u u0 v v0 w w0 x x0 y z z0 r2
-0000000000000000000100001000000000000000000000000000000 1
-
-.names b c1 e0 f h1 j j1 l0 m0 m1 p q0 r s v z s2
-0000001000000001 1
-
-.names b c1 e e0 f g h1 j j1 k l l0 m0 m1 p q q0 r s s0 t0 v z t2
-00000000100000010000000 1
-
-.names a a0 a1 b b0 b1 c c1 d d0 d1 e e0 e1 f f0 f1 g g0 g1 h h0 h1 i i0 j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p p0 q q0 r r0 s s0 t0 u u0 v v0 w w0 x x0 y z z0 u2
-0000000000000000000010000001000000000000000000000000000000 1
-
-.names a0 a1 b c1 d d0 d1 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p q q0 r r0 s s0 t0 u u0 v v0 x x0 y z z0 v2
-00000000000000000001000000000000000000000010000 1
-
-.names a a0 a1 b b0 b1 c c1 d d0 d1 e e0 e1 f f0 f1 g g0 g1 h0 h1 i j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p p0 q q0 r r0 s s0 t0 u u0 v v0 w w0 x x0 y z z0 w2
-00000000000000000001000001000000000000000000000000000000 1
-
-.names a1 b c1 d0 e e0 f f1 g g0 h1 j j1 k k0 k1 l l0 m0 m1 n p q q0 r s s0 t0 v y z x2
-0000000100001000000000000000000 1
-
-.names a0 a1 b c1 d d0 d1 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p q q0 r r0 s s0 t0 u u0 v v0 x0 y z z0 y2
-1000000000000000000100000000000000000000000000 1
-
-.names a1 b c1 e e0 f g h1 j j1 k k0 l l0 m0 m1 n p q q0 r s s0 t0 v y z z2
-000000000101000000000000000 1
-
-.names a1 b c1 d d0 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m0 m1 n p q q0 r s s0 t0 u u0 v v0 x0 y z a3
-0000000000000000010000000000000000000100 1
-
-.names a1 b c1 d0 e e0 f g h1 j j1 k k0 l l0 m0 m1 n p q q0 r s s0 t0 v y z b3
-0001000000100000000000000000 1
-
-.names a0 a1 b b0 c1 d d0 d1 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p q q0 r r0 s s0 t0 u u0 v v0 x x0 y z z0 c3
-000100000000000000001000000000000000000000000000 1
-
-.names a1 b c1 d0 e e0 f g g0 h1 j j1 k k0 k1 l l0 m0 m1 n p q q0 r s s0 t0 v y z d3
-000000000001001000000000000000 1
-
-.names a a0 a1 b b0 c c1 d d0 d1 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p p0 q q0 r r0 s s0 t0 u u0 v v0 w w0 x x0 y z z0 e3
-00000000000000000000001000000000000000000000001000000 1
-
-.names a1 b c1 d d0 e e0 e1 f f0 f1 g g0 h1 j j0 j1 k k0 k1 l l0 m0 m1 n p q q0 r s s0 t0 u v v0 y z f3
-0000000001000000100000000000000000000 1
-
-.names a0 a1 b b0 c1 d d0 d1 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p q q0 r r0 s s0 t0 u u0 v v0 w0 x x0 y z z0 g3
-0000000000000000000010000000000000000000000100000 1
-
-.names a1 b c1 d d0 d1 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m0 m1 n p q q0 r r0 s s0 t0 u u0 v v0 x0 y z z0 h3
-0000000000000000001000000000000100000000000 1
-
-.names a1 b c1 d0 e e0 f f1 g g0 h1 j j1 k k0 k1 l l0 m0 m1 n p q q0 r s s0 t0 v v0 y z i3
-00000000000010000000000000000100 1
-
-.names a1 b c1 d d0 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m0 m1 n p q q0 r s s0 t0 u u0 v v0 y z j3
-000000000000000001000000000000000010000 1
-
-.names j1 l0 m1 s k3
-1001 1
-
-.names a a0 a1 b b0 c c1 d d0 d1 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m m0 m1 n n0 p p0 q q0 r r0 s s0 t0 u u0 v v0 w0 x x0 y z z0 l3
-1000000000000000000000100000000000000000000000000000 1
-
-.names a1 b c1 d d0 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m0 m1 n p q q0 r s s0 t0 u v v0 y z m3
-00000000000000100100000000000000000000 1
-
-.names b c1 e0 f g h1 j j1 l l0 m0 m1 p q0 r s s0 t0 v z n3
-00000001100000000000 1
-
-.names a a0 a1 b b0 b1 c c0 c1 d d0 d1 e e0 e1 f f0 f1 g g0 g1 h h0 h1 i i0 j j0 j1 k k0 k1 l l0 m m0 m1 n n0 o0 p p0 q q0 r r0 s s0 t t0 u u0 v v0 w w0 x x0 y y0 z z0 o3
-00000001000000000000000000001000000000000000000000000000000000 1
-
-.names b c1 e0 f g h1 j j1 l0 m0 m1 p q0 r s s0 t0 v z p3
-0000000100000000100 1
-
-.names b c1 e0 f g h1 j j1 l0 m0 m1 p q0 r s s0 v z q3
-000000010000000100 1
-
-.names a1 b c1 d d0 d1 e e0 e1 f f0 f1 g g0 h1 i j j0 j1 k k0 k1 l l0 m0 m1 n p q q0 r s s0 t0 u u0 v v0 x0 y z z0 r3
-000001000000000000100000000000000000000000 1
-
-.names h1 j1 l0 m1 s s3
-11000 1
-
-.names b c1 e0 f g h1 j j1 l0 m0 m1 p q0 r s v z t3
-00001001000000000 1
-
-.names a a0 a1 b b0 b1 c c0 c1 d d0 d1 e e0 e1 f f0 f1 g g0 g1 h h0 h1 i i0 i1 j j0 j1 k k0 k1 l l0 m m0 m1 n n0 o0 p p0 q q0 r r0 s s0 t t0 u u0 v v0 w w0 x x0 y y0 z z0 u3
-000000000000000000000000001001000000000000000000000000000000000 1
-
-.names j1 v3
-1 1
-
-.names b f h1 j j1 l0 m0 m1 p s w3
-0100100000 1
-
-.names h1 j1 l0 m1 p s x3
-010010 1
-
-.names a a0 a1 b b0 b1 c c0 c1 d d0 d1 e e0 e1 f f0 f1 g g0 g1 h h0 h1 i i0 i1 j j0 j1 k k0 k1 l l0 l1 m m0 m1 n n0 o0 p p0 q q0 r r0 s s0 t t0 u u0 v v0 w w0 x x0 y y0 z z0 y3
-0000000000000000000000000000010000010000000000000000000000000000 1
-
-.names j1 l0 z3
-11 1
+.inputs a b c d e f g
+.outputs h i j k l m n o p q
+.names c f Z
+0- 1
+-0 1
+
+.names Z a b c d e f g h
+110----0 1
+11--00-0 1
+-01-1--- 1
+-01--1-1 1
+-01---11 1
+-0-111-1 1
+-0--1111 1
+-10-0--- 1
+-10--0-0 1
+
+.names Z a b c d e f g i
+1-0-1--0 1
+1-1-00-0 1
+-0001-0- 1
+-00-10-- 1
+-00-1--0 1
+-01-000- 1
+-01-0--0 1
+-101011- 1
+-10-0--1 1
+-11-11-- 1
+-11-1--1 1
+-1-11010 1
+--0101-1 1
+--0-0111 1
+--1-11-1 1
+--1-1-11 1
+
+.names Z a b c d e f g j
+1-0-1--0 1
+-0--1--- 1
+-1110-1- 1
+-11-01-- 1
+-11-0--1 1
+--0-10-0 1
+
+.names a b c d e f g k
+11-1--- 1
+1--1--1 1
+1-1111- 1
+
+.names c f l
+01 1
+10 1
+
+.names c m
+0 1
+
+.names c e f g n
+1-11 1
+0-01 1
+-001 1
+0-10 1
+1100 1
+
+.names c e f o
+01- 1
+-11 1
+100 1
+
+.names Z a b c e f g p
+110---0 1
+11--0-0 1
+-000-01 1
+-00-0-1 1
+-011-10 1
+-01-1-0 1
+-0-1110 1
+-0--001 1
+-10-0-0 1
+-11-1-1 1
+-11--11 1
+-1-11-1 1
+-1--111 1
+
+.names Z b c e f g q
+10-1-0 1
+-0010- 1
+-0101- 1
+-0-011 1
+-100-0 1
+-1111- 1
+-111-1 1
+-1-00- 1
+-1-111 1
 
 .end
